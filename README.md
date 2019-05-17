@@ -46,7 +46,7 @@ These are the options available for the control:
 | `title`     | string      | `'Reset map view'`                               | Tooltip to appear when the user hovers over the control. |
 | `zoom`      | number      | Current map zoom on initialisation               | The zoom level that the map should be displayed at when the control is activated. |
 
-The [example code in the demo](https://github.com/traffordDataLab/leaflet.resetview/blob/master/leaflet.resetview_example.js) shows how to use the options above.
+The [example code in the demo](https://github.com/traffordDataLab/leaflet.resetview/blob/master/leaflet.resetview_example.html) shows how to use the options above.
 
 ## Licence
 This software is provided under the terms of the [MIT License](https://www.trafforddatalab.io/leaflet.resetview/LICENSE.txt).
