@@ -40,7 +40,7 @@ These are the options available for the control:
 | ----------- | ----------- | ------------------------------------------------ | ----------- |
 | `center`    | array       | Current map centre coordinates on initialisation | Array specifying the latitude and longitude coordinates in the form `[Lat, Lng]` |
 | `container` | HTMLElement | Creates its own internally                       | The HTML container for the control. Can be an existing control's container obtained via the Leaflet function `getContainer()`. |
-| `content`   | string      | HTML left-arrow entity `&larr;`                  | The content you want displaying within the control. If you want to use an icon font e.g. from Font Awesome etc. pass an empty string for this and use the `cssClass` option to specify the icon. |
+| `content`   | string      | HTML left-arrow entity `&larr;`                  | The content you want displaying within the control. If you want to use an [icon font](?icon%20font) simply pass an empty string for this and use the `cssClass` option to specify the icon. |
 | `cssClass`  | string      | Empty string                                     | CSS class name(s) to style the control. Can also be used to specify icon fonts to display in place of `content`. |
 | `position`  | string      | `'topleft'`                                      | One of the map corners where you want the control to appear. Can be `'topleft'`, `'topright'`, `'bottomleft'`, `'bottomright'`. |
 | `title`     | string      | `'Reset map view'`                               | Tooltip to appear when the user hovers over the control. |
